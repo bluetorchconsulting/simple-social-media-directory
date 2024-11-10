@@ -4,7 +4,9 @@ A very simple way to get the names and details of popular social media networks,
 
 The idea came as a way to provide developers to 'insert social media networks here' in your code. Let's say you're building a website and there's social media buttons in the footer. As the developer, you don't care what networks they are, you just need to show the links in the footer to keep your client happy. Well, here you go! And what's more you don't even have to pay attention to whatever the social networks are calling themselves. Let's say if Twitter becomes X, it doesn't matter - your code just runs a loop over the collection. If a social media network changes its name or logo we (that is, I) will update this app and the API so you start getting the latest name/logo. 
 
-**For example**
+(The real reason I created this app was to learn and practice coding, specifically on my journey learning Python. I wanted something that I could produce in a day, but would do something actually useful. I also wanted to showcase to potential future employers/clients that I can develop apps including deployment. I will continue to develop this app as part of my learning journey, and you are welcome to do the same = just create a branch for yourself)
+
+**React implementation example**
 
 Create a new React component:
 
