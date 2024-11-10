@@ -1,33 +1,33 @@
 [
     {
+        "id": 1,
         "current_name": "Facebook",
         "previous_name": "Facebook",
         "logos": {
-            "official": "https://facebook.com/logo.png",
-            "button": "https://facebook.com/button.png",
-            "icon": "https://facebook.com/icon.png"
+            "official": "logos/1/official.png",
+            "icon": "logos/1/icon.png"
         },
         "website": "https://facebook.com",
         "popularity": 1
     },
     {
+        "id": 2,
         "current_name": "X",
         "previous_name": "Twitter",
         "logos": {
-            "official": "https://x.com/logo.png",
-            "button": "https://x.com/button.png",
-            "icon": "https://x.com/icon.png"
+            "official": "logos/2/official.png",
+            "icon": "logos/2/icon.png"
         },
         "website": "https://x.com",
         "popularity": 2
     },
     {
+        "id": 3,
         "current_name": "Instagram",
         "previous_name": "Instagram",
         "logos": {
-            "official": "https://instagram.com/logo.png",
-            "button": "https://instagram.com/button.png",
-            "icon": "https://instagram.com/icon.png"
+            "official": "logos/3/official.png",
+            "icon": "logos/3/icon.png"
         },
         "website": "https://instagram.com",
         "popularity": 3
