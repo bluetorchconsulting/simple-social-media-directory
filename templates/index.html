@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Directory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Social Media Directory API</h1>
+    <button id="fetchButton">Get Social Networks</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('fetchButton').addEventListener('click', () => {
+            fetch('/api/social-networks')
+                .then(response => response.json())
+                .then(data => {
+                    const resultDiv = document.getElementById('result');
+                    resultDiv.innerHTML = '<ul>' + 
+                        data.map(network => `
+                            <li>
+                                <h2>${network.current_name}</h2>
+                                <p>Website: <a href="${network.website}" target="_blank">${network.website}</a></p>
+                                <p>Popularity: ${network.popularity}</p>
+                                <img src="${network.logos.icon}" alt="${network.current_name} Icon" width="50">
+                            </li>
+                        `).join('') + 
+                        '</ul>';
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        });
+    </script>
+</body>
+</html>
