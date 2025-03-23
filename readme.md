@@ -1,5 +1,7 @@
 # Simple Social Media Directory
 
+*This codebase is intended as a very quick demonstration to prove I can code. It was put together very quickly to deliver a minimal set of functions.*
+
 A very simple way to get the names and details of popular social media networks, even if they change their names.
 
 The idea came as a way to provide developers to 'insert social media networks here' in your code. Let's say you're building a website and there's social media buttons in the footer. As the developer, you don't care what networks they are, you just need to show the links in the footer to keep your client happy. Well, here you go! And what's more you don't even have to pay attention to whatever the social networks are calling themselves. Let's say if Twitter becomes X, it doesn't matter - your code just runs a loop over the collection. If a social media network changes its name or logo we (that is, I) will update this app and the API so you start getting the latest name/logo. 
